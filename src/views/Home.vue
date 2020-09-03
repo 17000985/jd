@@ -1,18 +1,79 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+     <navbar/>
+     <swiper/>
+     <grid/>
+
+
+
+
+
+
+
+     
+     <div>h</div>
+<div>h</div><div>h</div><div>h</div><div>h</div>
+<div>h</div><div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+<div>h</div>
+
+<div>h</div>
+<div>h</div>
+
+     
+
+
+     
+
+     
+
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+<script type="text/javascript">
+import navbar from '../components/home/NavBar'
+import swiper from '../components/home/Swiper'
+import grid from '../components/home/Grid'
 export default {
-  name: 'Home',
+  name:"",
+  data() {
+    return {
+
+    }
+  },
   components: {
-    HelloWorld
+    navbar,
+    swiper,
+    grid
   }
 }
 </script>
+
+<style>
+.home{
+  background-color: #F6F6F6;
+}
+</style>
