@@ -46,7 +46,7 @@ export default {
 .navbar img{
     width: 20px;
     height: 25px;
-    margin-right: 5px;
+    margin-right: 8px;
 
 }
 .navbar .van-icon{

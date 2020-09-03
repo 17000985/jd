@@ -1,8 +1,9 @@
 <template>
   <div class="home">
-     <navbar/>
-     <swiper/>
-     <grid/>
+    <navbar/>
+    <swiper/>
+    <grid/>
+    <seckill/>
 
 
 
@@ -57,6 +58,7 @@
 import navbar from '../components/home/NavBar'
 import swiper from '../components/home/Swiper'
 import grid from '../components/home/Grid'
+import seckill from '../components/home/Seckill'
 export default {
   name:"",
   data() {
@@ -67,7 +69,8 @@ export default {
   components: {
     navbar,
     swiper,
-    grid
+    grid,
+    seckill
   }
 }
 </script>
